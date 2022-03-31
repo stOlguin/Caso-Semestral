@@ -1,0 +1,33 @@
+#titulo_principal {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#titulo_princ{
+    text-align: center;
+    margin: 2rem;
+}
+
+.enlaces_nav{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 25px;
+}
+
+.m-right{
+    margin-right: 1rem;
+}
+
+.d-block{
+    display: block;
+}
+
+.m-top{
+    margin-top: 5rem;
+}
+
+.p-r{
+    padding-right: 0.5rem;
+}
