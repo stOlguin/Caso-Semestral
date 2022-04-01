@@ -16,10 +16,6 @@
     font-size: 25px;
 }
 
-.m-right{
-    margin-right: 1rem;
-}
-
 .d-block{
     display: block;
 }
@@ -28,6 +24,19 @@
     margin-top: 5rem;
 }
 
-.p-r{
-    padding-right: 0.5rem;
+
+.img-size{
+    height: 255px;
+    width: 255px;
+}
+
+.titulos-productos{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.titulos-productos:hover{
+    color: aquamarine;
+    text-decoration: none;
 }
