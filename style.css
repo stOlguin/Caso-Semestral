@@ -1,5 +1,5 @@
 #titulo_principal {
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Copperplate, fantasy;
     font-size: 50px;
     color: black;
     text-decoration: none;
@@ -12,7 +12,7 @@
 }
 
 .enlaces_nav{
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Copperplate, fantasy;
     font-size: 25px;
 }
 
