@@ -28,7 +28,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                     <img src="/examples/images/logo.svg" height="28" alt="CatDog">
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -36,9 +36,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link enlaces_nav mr-3">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link active enlaces_nav mr-3">Inicio</a>
                         <a href="accesorios.html" class="nav-item nav-link enlaces_nav mr-3">Accesorios</a>
-                        <a href="jugueteria.html" class="nav-item nav-link enlaces_nav">Jugueteria</a>
+                        <a href="jugueteria.html" class="nav-item nav-link enlaces_nav mr-3">Jugueteria</a>
+                        <!--<a href="#" class="nav-item nav-link enlaces_nav">Alimentos</a>    !!!!!!!!!    Descomentar Despues!!!!!!!!-->
                     </div>
                     <div class="navbar-nav ms-auto ml-auto">
                         <a href="#" class="nav-item nav-link enlaces_nav"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2 iconos" viewBox="0 0 16 16">
@@ -53,24 +54,21 @@
         </nav>
     </div>
 
-    <div class="container d-block m-top config-container border">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 px-md-6 px-1">
-                <div class="product-block text-center mb-md-3 mb-2 p-md-3 p-2 rounded trsn">
-                    <img class="img-fluid img-size-big" src="imagenes/inicio/pro_plan_gato_liveclear.jpeg" alt="">
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 px-md-6 px-1">
-                <h1 class="titulo-productos-big">Purina - Pro Plan LiveClear</h1>
-                <h1 class="precios-big">$28.990</h1> <br>
-                <caption>descripción</caption>
-                <p class="descripcion-prod">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem eius ipsum, sit omnis fugit debitis error, illum mollitia possimus et in sint modi nisi quia consequuntur, perspiciatis voluptatem praesentium explicabo!
-                </p>
-                <button type="button" class="btn btn-primary btn-lg w-100">Agregar Producto al Carro</button>
-            </div>
+    <form class="ml-4 mt-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-    </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control w-50" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        </div>
+        <button type="submit" class="btn btn-primary">iniciar sesión</button>
+      </form>
 
     <section class="mt-3">
         <!-- Footer -->
@@ -98,7 +96,8 @@
           <!-- Copyright -->
         </footer>
         <!-- Footer -->
-      </section>
+    </section>
 
 </body>
+
 </html>
