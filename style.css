@@ -8,7 +8,7 @@
 
 #titulo_princ{
     text-align: center;
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .enlaces_nav{
@@ -33,6 +33,11 @@
 .img-size-big{
     height: 606px;
     width: 606px;
+}
+
+.img-size-api{
+    height: 350px;
+    width: 350px;
 }
 
 .titulos-productos{
@@ -76,4 +81,20 @@
 .iconos{
     width: 23px;
     height: 23px;
+}
+
+.margin_abajo{
+    margin-bottom: 19rem;
+}
+
+.marcos{
+    border-radius: 25px;
+}
+
+.fondo_body{
+    background-color: #eeee;
+}
+
+.fondo_container{
+    background-color: white;
 }
